@@ -10,9 +10,10 @@ Arduino sketch showcases the use of `DNSServer` and `ESPAsyncWebServer` librarie
 
 ### Screenshots
 
-![](screenshots/captive_portal.PNG)
+<img src="screenshots/captive_portal.PNG" alt="captive_portal_screenshot" style="width:400px;"/>
 
-![](screenshots/serial_monitor.jpg)
+<img src="screenshots/serial_monitor.jpg" alt="serial_monitor_screenshot" style="width:400px;"/>
+
 
 
 The sketch was modified based on the [original captival portal example](https://github.com/me-no-dev/ESPAsyncWebServer/blob/master/examples/CaptivePortal/CaptivePortal.ino) from the `ESPAsyncWebServer` library. 
