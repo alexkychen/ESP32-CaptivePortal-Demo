@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32 Captive Portal Demo</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+    <h1>ESP32 Captive Portal Demo</h1>
+ 
+    <form action="/submit">
+      <div class="mb-3">
+        <label for="userInputSSID" class="form-label">Enter your WiFi network name (SSID)</label>
+        <input type="text" class="form-control" id="userInputSSID" name="userInputSSID">
+      </div>
+
+      <div class="mb-3">
+        <label for="userInputPW" class="form-label">Enter your WiFi network password</label>
+        <input type="password" class="form-control" id="userInputPW" name="userInputPW">
+      </div>
+
+      <div class="mb-3">
+        <label for="utcInput" class="form-label">Select your U.S. timezone</label>
+        <select class="form-select" aria-label="Select timezone" id="utcInput" name="utcInput">
+          <option value="-5">UTC-5 Eastern Time</option>
+          <option value="-6">UTC-6 Central Time</option>
+          <option value="-7">UTC-7 Mountain Time</option>
+          <option value="-8">UTC-8 Pacific Time</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="dst" id="dstCheck" name="dstCheck">
+          <label class="form-check-label" for="dstCheck">Daylight saving time</label> 
+        </div>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
