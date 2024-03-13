@@ -1,7 +1,7 @@
-![Static Badge](https://img.shields.io/badge/ESP32-red)
-![Static Badge](https://img.shields.io/badge/Arduino_Library-DNSServer-blue)
-![Static Badge](https://img.shields.io/badge/Arduino_Library-ESPAsyncWebServer-blue)
-![Static Badge](https://img.shields.io/badge/Arduino_Library-LittleFS-green)
+![Static Badge](https://img.shields.io/badge/ESP32-grey?logo=espressif)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-DNSServer-blue?logo=arduino)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-ESPAsyncWebServer-blue?logo=arduino)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-LittleFS-green?logo=arduino)
 
 
 
