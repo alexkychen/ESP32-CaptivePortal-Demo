@@ -1,3 +1,10 @@
+![Static Badge](https://img.shields.io/badge/ESP32-red)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-DNSServer-blue)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-ESPAsyncWebServer-blue)
+![Static Badge](https://img.shields.io/badge/Arduino_Library-LittleFS-green)
+
+
+
 # ESP32-CaptivePortal-Demo
 
 Arduino sketch showcases the use of `DNSServer` and `ESPAsyncWebServer` libraries to implement a captive portal, which is an index.html file stored in ESP32 flash memory via `LittleFS` library. The example portal includes a form which allows users to enter data which then are received by ESP32.
